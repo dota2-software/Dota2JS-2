@@ -20,7 +20,7 @@ function MidasControllerF() {
  if (Abilities.GetCooldownTimeRemaining(Midas) < 5) {
 
    GameEvents.SendEventClientSide('antiaddiction_toast', { "message": "Хэй бро, \nMidas перезарядится через 5 секунд.", "duration": "4" })
-}}}
+}}
 
 
 
